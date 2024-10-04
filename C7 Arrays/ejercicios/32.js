@@ -6,7 +6,7 @@ function esPalindromo(string) {
   // que se lee igual hacia adelante que hacia atrás.
   // Tu código:
  let compara = [];
- let longitud = compara.length;
+
  string.split('');
 
  for(let i=0; i<string.length; i++){
@@ -20,6 +20,30 @@ function esPalindromo(string) {
     return true;
   }
  }
+
+ /*
+ var textoVolteao = ""
+ for(let i = string.length - 1; i >= 0; i--){
+  textoVolteao = textoVolteao + string[i]
+ }
+
+ if(string === textoVolteao) return true 
+ else return false
+
+ var i = 0
+ var j = string.length - 1
+ while( i < j){
+  if(string[i] !== string[j]) return false 
+  else {
+    i++
+    j--
+  }
+
+  return true
+
+  return string === string.split("").recerse(.join(""))
+ }
+ */
 }
 
 module.exports = esPalindromo;

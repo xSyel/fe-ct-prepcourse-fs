@@ -12,6 +12,16 @@ function esPotenciaDeDos(numero) {
     }
   }
   return false;
+
+  /*
+  while(numero > 1){
+    if(numero % 2 === 0){
+      numero = numero / 2
+    } else {
+      return false 
+    }
+  }
+  */
 }
 
 module.exports = esPotenciaDeDos;

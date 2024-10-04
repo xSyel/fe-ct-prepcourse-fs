@@ -3,6 +3,10 @@ function estaEnRango(num) {
   // De lo contrario, retornar false.
   // Tu código:
   return num < 50 && num > 20;
+
+  /*
+  return num < 50 && num > 20 ? true : false
+  */
 }
 
 module.exports = estaEnRango;

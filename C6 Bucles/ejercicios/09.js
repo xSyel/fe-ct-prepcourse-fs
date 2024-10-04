@@ -12,6 +12,10 @@ function conection(status) {
   } else {
     return "Offline";
   }
+
+  /*
+  return status === 1 ? "Online" : status === 2 ? "Away" : "Offline"
+  */
 }
 
 module.exports = conection;

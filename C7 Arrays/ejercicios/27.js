@@ -5,5 +5,13 @@ function dePalabrasAFrase(palabras) {
   // Ejemplo: ['Hello', 'world!'] -> 'Hello world!'.
   // Tu código:
   return palabras.join(' ');
+
+  /*
+  var texto = palabras[0]
+  for (var i= 1; i < palabras.length; i++){
+    texto = texto + " " + palabras[i]
+    return texto
+  }
+  */
 }
 module.exports = dePalabrasAFrase;

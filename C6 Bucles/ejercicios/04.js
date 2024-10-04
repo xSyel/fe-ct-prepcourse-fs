@@ -8,6 +8,11 @@ function mayoriaDeEdad(edad) {
   } else {
     return "Not allowed";
   }
+
+  /*
+  operador ternario
+  return edad >= 18 ? "Allowed" : "Not Allowed"
+  */
 }
 
 module.exports = mayoriaDeEdad;
